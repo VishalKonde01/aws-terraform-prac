@@ -1,0 +1,5 @@
+ami = "ami-090d68841c2a28756"
+subnet_id = "subnet-00e88bbf507dcf4bf"
+instance_type = "c7i-flex.large"
+tags = "qa-env-workspace"
+sg_tags = "qa-env-sg"
