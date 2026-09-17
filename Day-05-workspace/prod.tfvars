@@ -1,0 +1,5 @@
+ami = "ami-090d68841c2a28756"
+subnet_id = "subnet-00e88bbf507dcf4bf"
+instance_type = "m7i-flex.large"
+tags = "prod-env-workspace"
+sg_tags = "prod-env-sg"
