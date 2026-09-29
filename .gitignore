@@ -1,0 +1,108 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+*.tfplan.json
+
+# Terraform variable files
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file
+# Keep this file in Git for provider version consistency
+# .terraform.lock.hcl
+
+# Sensitive files
+*.pem
+*.key
+*.secret
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+Day-01/.terraform.lock.hcl
+Day-02/.terraform.lock.hcl
+Day-03/.terraform.lock.hcl
+Day-04/terraform.lock.hcl
+Day-04\file-provisioners\.terraform.lock.hcl
+Day-04\local-exe\.terraform.lock.hcl
+Day-04\remote-exce\.terraform.lock.hcl
+Day-05-workspace\.terraform.lock.hcl
+environments\Networking\VPC\dev\.terraform.lock.hcl
+environments\Networking\VPC\prod\.terraform.lock.hcl
+environments\Networking\VPC\qa\.terraform.lock.hcl
+environments\Networking\VPC\uat\.terraform.lock.hcl
+environments\Compute\EC2\dev\.terraform.lock.hcl
+environments\Compute\EC2\prod\.terraform.lock.hcl
+environments\Compute\EC2\qa\.terraform.lock.hcl
+environments\Compute\EC2\uat\.terraform.lock.hcl
+
+
+
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-02\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-02\.terraform.lock.hcl
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-02\terraform.tfstate
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-02\terraform.tfstate.backup
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-03\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-03\.terraform.lock.hcl
+Day-04/file-provisioners/.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\file-provisioners\.terraform.lock.hcl
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\file-provisioners\custom-key
+Day-04/file-provisioners/custom-key.pub
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\local-exe\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\local-exe\.terraform.lock.hcl
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\remote-exce\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\remote-exce\.terraform.lock.hcl
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-04\terraform.tfstate
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-05-workspace\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\Day-05-workspace\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\dev\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\dev\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\prod\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\prod\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\qa\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\qa\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\uat\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Networking\VPC\uat\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\dev\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\dev\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\prod\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\prod\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\qa\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\qa\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\uat\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\uat\.terraform.lock.hcl
+
