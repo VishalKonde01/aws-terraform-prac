@@ -84,29 +84,6 @@ Hands-on **Terraform + AWS** learning repository focused on building reusable, s
 
 ---
 
-## 📂 Project Structure
-
-```text
-aws-terraform-prac/
-│
-├── Day-01/
-├── Day-02/
-├── Day-03/
-├── Day-04/
-├── Day-05-workspace/
-│
-├── environments/
-│   └── Networking/
-│       └── VPC/
-│
-├── modules/
-│   └── VPC/
-│
-├── .gitignore
-└── README.md
-```
-
----
 
 ## 🌎 Environment-Based Configuration
 
@@ -170,10 +147,10 @@ Configured traffic rules include:
 | HTTP | 80 | Web traffic |
 | HTTPS | 443 | Secure web traffic |
 | SMTP | 25 | Email |
-| POP3 | 110 | Email |
+
 
 Both **inbound and outbound rules** are managed through Terraform configuration.
-
+And many More Rules . 
 ---
 
 ## 💻 EC2 & Data Sources
@@ -262,21 +239,7 @@ terraform destroy
 
 ---
 
-## 🛠️ Technologies & Tools
 
-| Technology | Purpose |
-|---|---|
-| Terraform | Infrastructure as Code |
-| AWS | Cloud Infrastructure |
-| Amazon VPC | Networking |
-| Amazon EC2 | Compute |
-| Amazon S3 | Storage & Remote State |
-| AWS IAM | Identity & Access |
-| Git | Version Control |
-| GitHub | Code Repository |
-| VS Code | Development |
-
----
 
 ## 🚀 Getting Started
 
@@ -356,17 +319,6 @@ Use secure AWS authentication methods such as AWS CLI profiles, IAM roles, or en
 
 This repository documents my practical journey from **Terraform fundamentals to modular and multi-environment AWS infrastructure**.
 
-### Next Focus Areas
-
-- Advanced Terraform Modules
-- Advanced AWS Networking
-- Remote State Management
-- State Locking
-- Multi-AZ Architecture
-- IAM Best Practices
-- Terraform CI/CD
-- GitHub Actions
-- Production-Style AWS Infrastructure
 
 ---
 
