@@ -1,3 +1,5 @@
 bucket_name = "terraform-s3-qa-vish"
   Environment = "qa"
   bucket_tag = "qa-env-bucket"
+   aws_s3_bucket_versioning = "Enabled"
+  # aws_s3_bucket_acl = "public-read"

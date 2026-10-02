@@ -1,0 +1,5 @@
+bucket_name = "terraform-s3-prod-vish"
+  Environment = "prod"
+  bucket_tag = "prod-env-bucket"
+   aws_s3_bucket_versioning = "Enabled"
+   aws_s3_bucket_acl = "public-read"
