@@ -9,3 +9,11 @@ variable "Environment" {
 variable "bucket_tag" {
   type = string
 }
+
+variable "aws_s3_bucket_versioning" {
+  type = string
+}
+
+variable "aws_s3_bucket_acl" {
+  type = string
+}

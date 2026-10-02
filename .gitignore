@@ -20,7 +20,7 @@ override.tf.json
 
 # Terraform lock file
 # Keep this file in Git for provider version consistency
-# .terraform.lock.hcl
+ .terraform.lock.hcl
 
 # Sensitive files
 *.pem
@@ -58,8 +58,12 @@ environments\Compute\EC2\dev\.terraform.lock.hcl
 environments\Compute\EC2\prod\.terraform.lock.hcl
 environments\Compute\EC2\qa\.terraform.lock.hcl
 environments\Compute\EC2\uat\.terraform.lock.hcl
-
-
+environments\Security\ACM\.terraform.lock.hcl
+environments\DNS\.terraform.lock.hcl
+environments\Storage\S3\prod\.terraform.lock.hcl
+environments\Storage\S3\uat\.terraform.lock.hcl
+environments\Storage\S3\dev\.terraform.lock.hcl
+environments\Storage\S3\qa\.terraform.lock.hcl
 
 
 C:\Users\Vishal\Desktop\aws-terraform-prac\Day-02\.terraform
@@ -106,3 +110,20 @@ C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\qa\.terrafor
 C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\uat\.terraform
 C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Compute\EC2\uat\.terraform.lock.hcl
 
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Security\ACM\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Security\ACM\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\DNS\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\DNS\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\prod\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\prod\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\uat\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\uat\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\dev\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\dev\.terraform.lock.hcl
+
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\qa\.terraform
+C:\Users\Vishal\Desktop\aws-terraform-prac\environments\Storage\S3\qa\.terraform.lock.hcl
