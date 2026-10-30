@@ -1,7 +1,7 @@
 name: Auto Triggered github Action 1st Session
 
 on:
-  pull:
+  push:
     branches:
       -main
 
