@@ -1,9 +1,9 @@
 name: Auto Triggered github Action 1st Session
 
 on:
-  push:
+  pull:
     branches:
-      -main
+      -pipelines
 
 jobs:
   say-hello-inline-bash:
