@@ -3,10 +3,10 @@ name: Auto Triggered github Action 1st Session
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   say-hello-inline-bash:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "Auto Treiggered linux github action"  
+      - run: echo "Auto Triggered linux github action"  
