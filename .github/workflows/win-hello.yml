@@ -1,4 +1,4 @@
-name : windows hello world pipeline 
+name : win hello world pipeline 
 
 on :
   workflow_dispatch
@@ -7,4 +7,4 @@ jobs:
   say-hello-inline-bash:
     runs-on: windows-2025
     steps:
-      - run: windows first github action Hello World pipeline
+      - run: win first github action Hello World pipeline
