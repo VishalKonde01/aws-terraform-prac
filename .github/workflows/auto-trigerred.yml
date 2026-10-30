@@ -3,7 +3,7 @@ name: Auto Triggered github Action 1st Session
 on:
   pull:
     branches:
-      -pipelines
+      -main
 
 jobs:
   say-hello-inline-bash:

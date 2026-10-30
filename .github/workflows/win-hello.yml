@@ -7,4 +7,4 @@ jobs:
   say-hello-inline-bash:
     runs-on: windows-2025
     steps:
-      - run: echo "win first github action Hello World pipeline.
+      - run: echo "win first github action Hello World pipeline."
